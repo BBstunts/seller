@@ -4266,3 +4266,9 @@ applyPlatformLayout()
 getgenv().Library = Library
 return Library
 Window:Category("WereBetter.gg")
+local MainPage = Window:Page({Name = "Main", Icon = "136879043989014"})
+local OtherPage = Window:Page({Name = "Other", Icon = "136879043989014"})
+local CombatPage = Window:Page({Name = "Combat", Icon = "136879043989014"})
+local CarmodsPage = Window:Page({Name = "car mods", Icon = "136879043989014"})
+local VisualsPage = Window:Page({Name = "Visuals", Icon = "136879043989014"})
+local TrollingPage = Window:Page({Name = "Trolling", Icon = "136879043989014"})
