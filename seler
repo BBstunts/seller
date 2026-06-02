@@ -4262,8 +4262,6 @@ local function applyPlatformLayout()
     createMobileToggle()
 end
 
-Library:Notification("WereBetter.gg", 5, nil)
-Library:Notification("WereBetter.gg", 5, "94627324690861")
-
+applyPlatformLayout()
 getgenv().Library = Library
 return Library
