@@ -4272,3 +4272,12 @@ local CombatPage = Window:Page({Name = "Combat", Icon = "136879043989014"})
 local CarmodsPage = Window:Page({Name = "car mods", Icon = "136879043989014"})
 local VisualsPage = Window:Page({Name = "Visuals", Icon = "136879043989014"})
 local TrollingPage = Window:Page({Name = "Trolling", Icon = "136879043989014"})
+
+Window:Category("Settings")
+local SettingsPage = Library:CreateSettingsPage(Window)
+
+local function Notify(title, message, duration)
+    local body = (message and message ~= "") and message or (title or "")
+    local text = (body ~= "") and ("WereBetter.gg - " .. body) or "WereBetter.gg"
+    Library:Notification(text, duration or 3, nil)
+end
