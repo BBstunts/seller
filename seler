@@ -4265,3 +4265,4 @@ end
 applyPlatformLayout()
 getgenv().Library = Library
 return Library
+Window:Category("WereBetter.gg")
